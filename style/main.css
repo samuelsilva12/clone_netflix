@@ -15,10 +15,12 @@ body{
     
 }
 header .logo{
-    color: var(--vermelho);
+    color: gold;
     font-family:'Bebas Neue', cursive;
     font-size: 50px;
     margin-left: 10px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: var(--vermelho);
 }
 header .container{
     display: flex;
@@ -88,6 +90,10 @@ header nav a:hover{
      display: block;
  }
 .carrosel-filmes{
-   margin-top: 5px;
-   
+   padding-top: 10px;
+}
+.item:hover{
+    border: 10px solid gold;
+    transition: 0.5s;
+    box-shadow: 0 0 1em gold;
 }
